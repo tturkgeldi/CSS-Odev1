@@ -4,71 +4,137 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="products.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Ürünlerimiz</title>
   </head>
   <body>
-    <header>
-      <h1>Layup Donuts</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="products.html">Ürünlerimiz</a></li>
-          <li><a href="aboutus.html">Hakkımızda</a></li>
+    <div class="main">
+      <header>
+        <img src="images/LOGO1.png" alt="logo" id="logo" />
+        <nav>
+          <ul id="navbar">
+            <li class="navitem"><a href="index.html">Ana Sayfa</a></li>
+            <li class="navitem">
+              <a href="products.html" style="color: #ff7700">Ürünlerimiz</a>
+            </li>
+            <li class="navitem"><a href="aboutus.html">Hakkımızda</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <h2>Donutlar</h2>
+        <div class="donutlar">
+          <div class="donutcard">
+            <img
+              src="images/donuts/cikolatali-halka-bec-system-8283.jpg"
+              alt=""
+              class="itempic"
+            />
+            <p class="name">Çikolatalı Halka</p>
+          </div>
+          <div class="donutcard">
+            <img
+              src="images/donuts/cilekli-halka-bec-system-7712.jpg"
+              alt=""
+              class="itempic"
+            />
+            <p class="name">Çilekli Halka</p>
+          </div>
+          <div class="donutcard">
+            <img
+              src="images/donuts/glazed-boston-donut-4716.png"
+              alt=""
+              class="itempic"
+            />
+            <p class="name">Glazed</p>
+          </div>
+        </div>
+        <div class="donutlar1">
+          <div class="donutcard">
+            <img
+              src="images/donuts/boston-krema-bec-system-2021.jpg"
+              alt=""
+              class="itempic"
+            />
+            <p class="name">Boston Cream</p>
+          </div>
+          <div class="donutcard">
+            <img
+              src="images/donuts/purple-white-boston-donut-7835.png"
+              alt=""
+              class="itempic"
+            />
+            <p class="name">Purple White</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 style="color: #ff6fb5">Kahveler</h2>
+        <div class="donutlar">
+          <div class="coffeecard">
+            <img
+              src="https://content.sbuxtr.com/images/7706b53d995a98bfcf0e904391c4df06.jpg"
+              alt=""
+              class="coffeepic"
+            />
+            <p class="name">Filtre Kahve</p>
+          </div>
+          <div class="coffeecard">
+            <img
+              src="https://content.sbuxtr.com/images/28428d4f98ec2429c7dc626777695b0f.jpg"
+              alt=""
+              class="coffeepic"
+            />
+            <p class="name">Cafe Latte</p>
+          </div>
+          <div class="coffeecard">
+            <img
+              src="https://content.sbuxtr.com/images/f46920c5387e61001ac0b3fd5f64975e.jpg"
+              alt=""
+              class="coffeepic"
+            />
+            <p class="name">Caramel Macchiato</p>
+          </div>
+        </div>
+        <div class="donutlar1">
+          <div class="coffeecard">
+            <img
+              src="https://content.sbuxtr.com/images/1a230ac8493a74740799086e44627233.jpg"
+              alt=""
+              class="coffeepic"
+            />
+            <p class="name">White Chocolate Mocha</p>
+          </div>
+          <div class="coffeecard">
+            <img
+              src="https://content.sbuxtr.com/images/9fcb82e2fcaa2175e749054a02870048.jpg"
+              alt=""
+              class="coffeepic"
+            />
+            <p class="name">Cappuccino</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <address>
+          Karşıyaka <br />
+          İZMİR
+        </address>
+        <img src="images/LOGO1.png" alt="logo" id="logo1" />
+        <ul id="adres">
+          <li><a href="tel:02322223344">0232 222 33 44</a></li>
+          <br />
+          <li>
+            <a href="mailto:info@layupdonuts.com">info@layupdonuts.com</a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <section>
-      <h2>Donutlar</h2>
-      <ul>
-        <img src="img/donuts/cikolatali-halka-bec-system-8283.jpg" alt="" />
-        <li>Çikolatalı Halka</li>
-        <img src="img/donuts/cilekli-halka-bec-system-7712.jpg" alt="" />
-        <li>Çilekli Halka</li>
-        <img src="img/donuts/glazed-boston-donut-4716.png" alt="" />
-        <li>Glazed</li>
-        <img src="img/donuts/boston-krema-bec-system-2021.jpg" alt="" />
-        <li>Boston Cream</li>
-        <img src="img/donuts/purple-white-boston-donut-7835.png" alt="" />
-        <li>Purple White</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Kahveler</h2>
-      <ul>
-        <img
-          src="https://content.sbuxtr.com/images/7706b53d995a98bfcf0e904391c4df06.jpg"
-          alt=""
-        />
-        <li>Filtre Kahve</li>
-        <img
-          src="https://content.sbuxtr.com/images/28428d4f98ec2429c7dc626777695b0f.jpg"
-          alt=""
-        />
-        <li>Cafe Latte</li>
-        <img
-          src="https://content.sbuxtr.com/images/1a230ac8493a74740799086e44627233.jpg"
-          alt=""
-        />
-        <li>White Chocolate Mocha</li>
-        <img
-          src="https://content.sbuxtr.com/images/f46920c5387e61001ac0b3fd5f64975e.jpg"
-          alt=""
-        />
-        <li>Caramel Macchiato</li>
-        <img
-          src="https://content.sbuxtr.com/images/9fcb82e2fcaa2175e749054a02870048.jpg"
-          alt=""
-        />
-        <li>Cappuccino</li>
-      </ul>
-    </section>
-    <footer>
-      <h3>Layup Donuts</h3>
-      <address>Karşıyaka / İZMİR</address>
-      <ul>
-        <li><a href="tel:02322223344">0232 222 33 44</a></li>
-        <li><a href="mailto:info@layupdonuts.com">info@layupdonuts.com</a></li>
-      </ul>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>

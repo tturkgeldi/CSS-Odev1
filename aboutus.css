@@ -28,11 +28,6 @@ a {
   color: #ff6fb5;
 }
 
-#donuts {
-  width: 100%;
-  overflow: hidden;
-}
-
 #navbar {
   display: flex;
   margin-left: 16em;
@@ -49,25 +44,6 @@ a {
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: 2em;
-}
-
-section {
-  display: flex;
-  margin: 5em 5em 5em 5em;
-}
-article {
-  font-size: larger;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 2em;
-  padding-right: 2em;
-  width: 35%;
-}
-
-p {
-  text-align: justify;
-  line-height: 1.5;
 }
 
 footer {
@@ -90,4 +66,23 @@ address {
   margin-left: 10em;
   font-size: larger;
   font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  color: #ff7700;
+}
+
+p {
+  text-align: justify;
+  font-size: larger;
+  margin: 0em 10em 0em 10em;
+}
+
+article {
+  height: 378px;
 }
